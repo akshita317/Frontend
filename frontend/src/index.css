@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #0d0d1a;
+  color: #e2e8f0;
+}
+
+/* ReactFlow edge styling */
+.react-flow__edge-path {
+  stroke: #6366f1;
+  stroke-width: 2;
+}
+
+.react-flow__edge.animated .react-flow__edge-path {
+  stroke-dasharray: 6;
+  animation: dashdraw 0.5s linear infinite;
+}
+
+.react-flow__connection-path {
+  stroke: #818cf8;
+  stroke-width: 2;
+}
+
+/* Controls styling */
+.react-flow__controls-button {
+  background: #1e1e2e !important;
+  border-color: #334155 !important;
+  color: #94a3b8 !important;
+  fill: #94a3b8 !important;
+}
+
+.react-flow__controls-button:hover {
+  background: #2e2e4e !important;
+}
+
